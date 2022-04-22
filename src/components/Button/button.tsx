@@ -8,7 +8,7 @@ export type ButtonProps = {
 }
 
 function Button(props: ButtonProps) {
-    return (
+                        return (
         <button 
             class="button is-danger"
             {...props}
