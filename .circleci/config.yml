@@ -10,7 +10,7 @@ jobs:
       - checkout
       - run: echo "npm installing..."
       - run: npm install
-      - run: npm vitebook:build
+      - run: npm run vitebook:build
   test:
     docker:
       - image: cimg/node:current
@@ -18,7 +18,7 @@ jobs:
       - checkout
       - run: echo "npm testing..."
       - run: npm install
-      - run: npm test
+      - run: npm run test
 
 workflows:
   setup_and_test:
