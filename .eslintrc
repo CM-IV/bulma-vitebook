@@ -5,21 +5,13 @@
     "node": true
   },
   "parserOptions": {
-    "project": [
-      "./tsconfig.json",
-      "./vitest.config.ts"
-    ],
+    "project": ["./tsconfig.json", "./vitest.config.ts"],
     "parser": "@typescript-eslint/parser",
     "ecmaVersion": 2020,
     "sourceType": "module"
   },
-  "ignorePatterns": [
-    ".eslintrc.js"
-  ],
-  "plugins": [
-    "@typescript-eslint",
-    "simple-import-sort"
-  ],
+  "ignorePatterns": [".eslintrc.js"],
+  "plugins": ["@typescript-eslint", "simple-import-sort"],
   "overrides": [],
   "extends": [
     "eslint:recommended",
