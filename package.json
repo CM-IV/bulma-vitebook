@@ -14,6 +14,7 @@
     "format:eslint": "npm run lint:eslint -- --fix",
     "lint:prettier": "prettier . --check --ignore-path .gitignore --loglevel warn",
     "format:prettier": "npm run lint:prettier -- --write",
+    "precommit": "pretty-quick --staged",
     "prepare": "husky install"
   },
   "dependencies": {
