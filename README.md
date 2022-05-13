@@ -13,6 +13,8 @@ the preact testing library.
 
 Husky is used with pretty-quick in order to straighten out any typos in your code once you commit.
 
+Both the circleci and woodpeckerci engines are used. Woodpeckerci is for gitea while cicleci triggers on pushes to github.
+
 - Components currently included:
   - Hero
   - Button
