@@ -1,0 +1,8 @@
+pipeline:
+  test:
+    image: node:14-slim
+    commands:
+      - npm install
+      - npm run test
+
+branches: master
