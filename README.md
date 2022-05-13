@@ -1,5 +1,7 @@
 # Bulma Vitebook Component Library
 
+### By CM-IV
+
 ![](https://ci.civdev.xyz/api/badges/CM-IV/bulma-vitebook/status.svg)
 
 **WARNING**: Only Vitejs <= v2.8.6 is working with Vitebook. If you update Vitejs to a later version, Vitebook will no longer function properly!
