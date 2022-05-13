@@ -4,8 +4,8 @@ import { expect, test, describe, beforeAll, afterAll } from "vitest";
 import { preview } from "vite";
 import type { PreviewServer } from "vite";
 
-import Card from "../components/Card/card";
-describe("card component tests", () => {
+import Message from "../components/Message/message";
+describe("message component tests", () => {
   let server: PreviewServer;
 
   beforeAll(async () => {
@@ -16,14 +16,11 @@ describe("card component tests", () => {
     server.httpServer.close();
   });
 
-  test("renders the card", () => {
+  test("renders the message", () => {
     const title = "title";
     const content = "content here";
-    const cardImg = "https://bulma.io/images/placeholders/1280x960.png";
 
-    const rendered = render(
-      <Card title={title} cardImg={cardImg} content={content} />,
-    );
+    const rendered = render(<Message title={title} content={content} />);
 
     const { container } = rendered;
 

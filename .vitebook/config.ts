@@ -19,11 +19,11 @@ export default defineConfig<DefaultThemeConfig>({
     preact({ include: /\.([j|t]sx?|md)$/ }),
   ],
   site: {
-    title: "Bulma Ui",
+    title: "Preact Bulma Ui",
     description: "A UI Library for Bulma CSS",
     theme: {
       remoteGitRepo: {
-        url: "vitebook/vitebook",
+        url: "CM-IV/preact-bulma",
       },
     },
   },
