@@ -2,7 +2,7 @@
 
 ![](https://ci.civdev.xyz/api/badges/CM-IV/bulma-vitebook/status.svg)
 
-**WARNING**: Only Vitejs <= v2.8.6 is working with Vitebook. If you update Vitejs to a later version, Vitebook will break!
+**WARNING**: Only Vitejs <= v2.8.6 is working with Vitebook. If you update Vitejs to a later version, Vitebook will no longer function properly!
 
 A Preact Component library built with Bulma CSS.
 
