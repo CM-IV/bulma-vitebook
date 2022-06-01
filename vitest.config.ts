@@ -5,4 +5,8 @@ export default defineConfig({
     globals: true,
     environment: "happy-dom",
   },
+  esbuild: {
+    jsxFactory: "h",
+    jsxFragment: "Fragment",
+  },
 });
